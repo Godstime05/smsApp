@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d6e5c9c-980c-414e-bd51-c28e66070f1b" name="Changes" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/utils/queries/SmsMsgQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/utils/queries/SmsSelectQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/utils/queries/UserQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/AppConfig/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/AppConfig/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/SmsAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/SmsAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/account/SmsAppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/account/SmsAppInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/controller/SmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/controller/SmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/dbConnection/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/dbConnection/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/httpUrlConnection/HttpUrlConn2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/httpUrlConnection/HttpUrlConn2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/httpUrlConnection/HttpUrlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/httpUrlConnection/HttpUrlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/model/SmsMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/model/SmsMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/model/SmsMessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/model/SmsMessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/AlertMessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/AlertMessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/GetReceiverPhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/GetReceiverPhoneNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/smsServices/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/dto/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/dto/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/repository/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/repository/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/users/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/utils/AutoSendMessageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neptune/smsApp/utils/AutoSendMessageRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/AppConfig/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/AppConfig/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/SmsAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/SmsAppApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/account/SmsAppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/account/SmsAppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/controller/SmsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/controller/SmsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dbConnection/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dbConnection/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/receive/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/receive/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/receive/SmsRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/receive/SmsRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/send/MessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/dto/send/MessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/httpUrlConnection/HttpUrlConn2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/httpUrlConnection/HttpUrlConn2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/httpUrlConnection/HttpUrlConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/httpUrlConnection/HttpUrlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/httpUrlConnection/HttpUrlConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao$SmsMessageRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao$SmsMessageRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/SmsMessageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/YesNoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/model/YesNoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/SmsMessageRepository$SmsMessageRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/SmsMessageRepository$SmsMessageRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/SmsMessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/SmsMessageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/repository/UsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/AlertMessageSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/AlertMessageSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/GetReceiverPhoneNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/GetReceiverPhoneNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService$SmsMessageRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService$SmsMessageRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/InboxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService$SmsMessageRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService$SmsMessageRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SearchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService$SmsMessageRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService$SmsMessageRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/smsServices/SmsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/AuthEntryPointJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/AuthEntryPointJwt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/configure/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/request/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/request/SignupRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/request/SignupRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/JwtResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/MessageResponse$MessageResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/MessageResponse$MessageResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/SmsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/dto/response/SmsResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/enums/ResponseCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/enums/ResponseCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/models/SecurityUser$SecurityUserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/models/SecurityUser$SecurityUserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/models/SecurityUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/models/SecurityUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository$UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository$UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/services/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/services/UserDetailsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/users/services/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/utils/AutoSendMessageRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/neptune/smsApp/utils/AutoSendMessageRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smsApp-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/smsApp-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smsApp-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/smsApp-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2P3s9bavsqhJ3uz2gEboUTZ7Rzh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/NEPTUNESOFTWARE/Documents/GodstimeProjectFolder/neptuneWork/spectrum/2024_working/New folder/smsApp",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.neptune.smsApp.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NEPTUNESOFTWARE\Documents\GodstimeProjectFolder\neptuneWork\spectrum\2024_working\smsApp\src\main\resources" />
+      <recent name="C:\Users\NEPTUNESOFTWARE\Pictures\smsApp\src\main\java\com\neptune\smsApp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neptune.smsApp.smsServices" />
+      <recent name="com.neptune.smsApp.utils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -Dmaven.test.skip " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SmsAppApplication">
+    <configuration name="SmsAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neptune.smsApp.SmsAppApplication" />
+      <module name="smsApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neptune.smsApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmsAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="smsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neptune.smsApp.SmsAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SmsAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d6e5c9c-980c-414e-bd51-c28e66070f1b" name="Changes" comment="" />
+      <created>1682696949754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682696949754</updated>
+      <workItem from="1682696953692" duration="851000" />
+      <workItem from="1683282469886" duration="2760000" />
+    </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <created>1683217208276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683217208276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new commit">
+      <created>1683217237736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683217237736</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new commit">
+      <created>1683217267663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683217267663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new commit">
+      <created>1683217304110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683217304110</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new commit">
+      <created>1685709809182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685709809182</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new commit">
+      <created>1685709877646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685709877646</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="41" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.nio.cs.StreamDecoder" memberName="cs" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

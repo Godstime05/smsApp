@@ -1,0 +1,51 @@
+{
+  "properties": [
+    {
+      "name": "com.neptune.smsApp.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for com.neptune.smsApp.jwtSecret."
+    },
+    {
+      "name": "com.neptune.smsApp.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for com.neptune.smsApp.jwtExpirationMs."
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for jwt.secret."
+    },
+    {
+      "name": "sms.getMultiInboundSms",
+      "type": "java.lang.String",
+      "description": "Description for sms.getMultiInboundSms."
+    },
+    {
+      "name": "sms.getInfoUrl",
+      "type": "java.lang.String",
+      "description": "Description for sms.getInfoUrl."
+    },
+    {
+      "name": "sms.password",
+      "type": "java.lang.String",
+      "description": "Description for sms.password."
+    },
+    {
+      "name": "sms.userName",
+      "type": "java.lang.String",
+      "description": "Description for sms.userName."
+    },
+    {
+      "name": "waitTime",
+      "type": "java.lang.String",
+      "description": "Description for waitTime."
+    },
+    {
+      "name": "sms.sendUrl",
+      "type": "java.lang.String",
+      "description": "Description for sms.sendUrl."
+    },
+
+
+  ]
+}
